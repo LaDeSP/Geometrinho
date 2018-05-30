@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>apresentação</name>
+    <events>
+        <event-block sid="117165625931139">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="863501242366053" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">btn_play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="145273424478741" type="maria_speak">
+                    <param id="0" name="X">618</param>
+                    <param id="1" name="Y">356</param>
+                </action>
+                <action id="-9" name="Destroy" sid="522044780737811" type="maria_inicial" />
+                <action id="-3" name="Set position" sid="331055452299810" type="btn_pause">
+                    <param id="0" name="X">159</param>
+                    <param id="1" name="Y">480</param>
+                </action>
+                <action id="-9" name="Destroy" sid="841816612843784" type="btn_play" />
+                <action id="-3" name="Set position" sid="546758041744037" type="Sprite6">
+                    <param id="0" name="X">733</param>
+                    <param id="1" name="Y">476</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

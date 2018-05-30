@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event tela2_avatar</name>
+    <events>
+        <event-block sid="210780968961042">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="786869812810888" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">girl1_seleciona</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="373259508616941" type="girl1_grande">
+                    <param id="0" name="X">300</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="209024333743506">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="383996130099872" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">boy1_seleciona</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="742181021373195" type="girl1_grande" />
+                <action id="-3" name="Set position" sid="169402524170005" type="boy1_grande">
+                    <param id="0" name="X">300</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="444614623515587">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="509479371966962" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">girl2_seleciona</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="293719874608658" type="boy1_grande" />
+                <action id="-3" name="Set position" sid="472983686926551" type="girl2_grande">
+                    <param id="0" name="X">300</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="721250448049739">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="354346993921994" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">boy2_seleciona</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="922339903101336" type="girl2_grande" />
+                <action id="-3" name="Set position" sid="657968871333301" type="boy2_grande">
+                    <param id="0" name="X">300</param>
+                    <param id="1" name="Y">200</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

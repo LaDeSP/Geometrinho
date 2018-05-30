@@ -1,1 +1,1 @@
-em desenvlolvimento
+O jogo Geometrinho, foi desenvolvido com o objetivo de funcionar como uma ferramenta que auxile o professor em sala de aula. Fazendo com que os alunos saiam um pouco da rotina, brincando e estudando ao mesmo tempo. O jogo foi desenvolvido para que as crianças consigam enxergar a presença da Geometria no seu dia a dia, por isso possui vários objetos e cenários relacionados ao cotidiano das crianças.

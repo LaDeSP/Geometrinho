@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event tela3_mapa</name>
+    <events>
+        <event-block sid="474914882003964">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="866787175752014" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">desafio1</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="894109072692333">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="492628177506097" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">desafio2</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="518349457606530">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="231918851777446" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">desafio3</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="903741504195176">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="643392501207316" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">desafio4</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="904096455356363">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="978920816811067" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">desafio5</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

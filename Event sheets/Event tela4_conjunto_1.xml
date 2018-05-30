@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event tela4_conjunto_1</name>
+    <events>
+        <event-block sid="720307514244118">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="912859808821595" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">conjunto1_1</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="632294633007055">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="365761689223038" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">conjunto1_2</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="683693897532754">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="871764732735132" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">conjunto1_3</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="173069977394180">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="377914181382076" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">mapa_voltar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="574615326908677" type="System">
+                    <param id="0" name="Layout">&quot;Tela3_mapa&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
